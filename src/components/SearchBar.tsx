@@ -23,9 +23,9 @@ export default function SearchBar({ onSearch, isLoading }: SearchBarProps) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search for a movie..."
-          className="flex-1 bg-gray-800 border border-gray-700 rounded-lg px-2 py-3 lg:px-6 lg:py-4 text-white text-sm placeholder-gray-400 focus:outline-none focus:border-red-750 focus:bg-gray-750 transition-colors duration-200 text-lg"
+          className="flex-1 bg-gray-800 border border-gray-700 rounded-lg px-2 py-3 lg:px-6 lg:py-3 text-white text-sm placeholder-gray-400 focus:outline-none focus:border-red-750 focus:bg-gray-750 transition-colors duration-200 text-lg"
         />
-        <div className="absolute right-0 top-[2px]">
+        <div className="absolute right-0">
           <button
             type="submit"
             disabled={isLoading || !query.trim}
