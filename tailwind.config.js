@@ -13,6 +13,10 @@ module.exports = {
                     750: '#374151',
                     850: '#1f2937'
                 }
+            },
+            fontFamily: {
+                sans: ['Geist', 'sans-serif'],
+                mono: ['Geist Mono', 'monospace']   
             }
         }
     },
